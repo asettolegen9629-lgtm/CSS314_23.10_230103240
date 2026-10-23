@@ -1,0 +1,14 @@
+==========================================================
+Task 1: Row-Major vs Column-Major Parallel Cache Traversal
+==========================================================
+Student ID          : 230103240
+Logical cores       : 16
+Physical cores used : 8
+Matrix              : 8000 x 8000 float64 (512 MB), seed=230103240
+Timing              : best of 3 runs, wall-clock
+----------------------------------------------------------
+Mode A (row-major)    :      18.64 ms   sum = 32000022.384873
+Mode B (column-major) :      90.18 ms   sum = 32000022.384873
+Sums match            : True
+----------------------------------------------------------
+Cache penalty factor (B / A) : 4.84x
