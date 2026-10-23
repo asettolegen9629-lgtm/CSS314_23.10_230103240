@@ -1,0 +1,13 @@
+==========================================================
+Task 3: Prefix Scan (Step vs. Work Efficiency)
+==========================================================
+Student ID    : 230103240
+Array size    : 2,000,000 ints (1..10), seed=230103240
+Workers       : 8 threads (physical cores)
+Timing        : best of 5 runs
+Last element  : serial=10997040  parallel=10997040
+----------------------------------------------------------
+Serial Time (ms)   : 2.127
+Parallel Time (ms) : 2.546
+Speedup            : 0.84x
+Verification       : PASS
