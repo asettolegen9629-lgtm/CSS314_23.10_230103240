@@ -5,7 +5,7 @@ Student ID   : 230103240
 Samples      : 40,000,000 (4 threads x 10,000,000)
 Seeds (indep): 2301032400, 2301032401, 2301032402, 2301032403
 ----------------------------------------------------------
-Shared PRNG (mutex)  : pi = 3.14137840 | abs error = 0.00021425 | time =    187014.02 ms
-Independent PRNGs    : pi = 3.14161360 | abs error = 0.00002095 | time =      4831.88 ms
+Shared PRNG (mutex)  : pi = 3.14137840 | abs error = 0.00021425 | time =    171246.97 ms
+Independent PRNGs    : pi = 3.14161360 | abs error = 0.00002095 | time =      4291.74 ms
 ----------------------------------------------------------
-Speedup from removing generator lock (shared / independent): 38.70x
+Speedup from removing generator lock (shared / independent): 39.90x
