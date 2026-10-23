@@ -1,0 +1,18 @@
+==========================================================================
+Task 5: Thread Oversubscription Threshold
+==========================================================================
+Student ID    : 230103240
+Logical cores : 16   (Cores = logical cores)
+Batch         : 10,000 tasks x (1 KB hashed 500 times), best of 3 runs
+Checksums     : all pool sizes identical
+--------------------------------------------------------------------------
+Pool Size | Execution Time (ms) | Speedup vs 1 thread | Status
+--------------------------------------------------------------------------
+        1 |              4830.1 |               1.00x | Improving
+        8 |               755.3 |               6.40x | Improving
+       16 |               449.7 |              10.74x | Optimal (fastest)
+       32 |               458.4 |              10.54x | WORSENING <-- threshold
+       64 |               476.1 |              10.15x | Degraded
+      256 |               542.9 |               8.90x | Degraded
+--------------------------------------------------------------------------
+Fastest pool size: 16. Execution time starts worsening at pool size 32 (+1.9% vs best).
