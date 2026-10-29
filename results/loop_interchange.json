@@ -1,0 +1,6 @@
+{
+    "matrix_subblock_M": 512,
+    "time_naive_seconds": 41.94536680000601,
+    "time_interchanged_seconds": 52.439434300002176,
+    "speedup": 0.7998821375539567
+}
