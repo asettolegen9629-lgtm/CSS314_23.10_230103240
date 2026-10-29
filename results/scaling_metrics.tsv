@@ -1,0 +1,7 @@
+Type	P	Time_s	Speedup	Efficiency_pct
+Strong	1	0.4147	1.0000	100.00
+Strong	2	0.3242	1.2791	63.96
+Strong	4	0.6305	0.6577	16.44
+Weak	1	0.3361	-	-
+Weak	2	0.3001	-	-
+Weak	4	0.3546	-	-

@@ -1,0 +1,6 @@
+{
+    "estimated_serial_fraction_s": 0.05,
+    "max_theoretical_speedup": 20.0,
+    "arithmetic_intensity_flops_per_byte": 2.5,
+    "execution_regime": "Memory-Bandwidth Bound"
+}
